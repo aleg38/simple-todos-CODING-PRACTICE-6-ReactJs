@@ -1,0 +1,24 @@
+/* Write your CSS here */
+.todo-list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 10px;
+}
+.title {
+  font-size: 18px;
+  font-weight: 400;
+}
+.delete-btn {
+  background-color: transparent;
+  color: #ff0b37;
+  border: 1px solid #ff0b37;
+  border-radius: 6px;
+  padding: 14px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px;
+  cursor: pointer;
+  outline: none;
+}
